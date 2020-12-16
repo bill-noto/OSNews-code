@@ -1,5 +1,4 @@
-img, 
-video 	{
+img 	 {
 	border: 1px solid black;
 }
 
@@ -117,9 +116,9 @@ nav > div:last-child 	{
 }
 
 .headline h1 > a 	{
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-decoration: none;
-	cursor: pointer;
 	font-size: 1.2em;
 	padding-bottom: 5px;
 }
@@ -133,6 +132,7 @@ nav > div:last-child 	{
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	font-size: 14px;
+	margin-left: 13px;
 }
 
 .headline > p > a 	{
@@ -408,7 +408,7 @@ nav > div:last-child 	{
 }
 /* END NEWS PAGE */
 
-/* PICTURES PAGE */
+/* PICTURES & VIDEOS PAGE */
 #picvidmain h1 	{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
@@ -468,57 +468,7 @@ nav > div:last-child 	{
 	left: 459px;
 	top: -872px;
 }
-/* END PICTURES PAGE */
-
-/* VIDEOS PAGE */
-#bigpicsnvids video:nth-child(1)	{
-	position: relative;
-	left: 65px;
-	top: 0;
-}
-
-#bigpicsnvids video:nth-child(2)	{
-	position: relative;
-	left: -293px;
-	top: 179px;
-}
-
-#bigpicsnvids video:nth-child(3)	{
-	position: relative;
-	left: 156px;
-	top: 179px;
-}
-
-#bigpicsnvids video:nth-child(4)	{
-	position: relative;
-	left: 870px;
-	top: -339px;
-}
-
-#bigpicsnvids video:nth-child(5)	{
-	position: relative;
-	left: 231px;
-	top: -339px;
-}
-
-#bigpicsnvids video:nth-child(6)	{
-	position: relative;
-	left: -55px;
-	top: -160px;
-}
-
-#bigpicsnvids video:nth-child(7)	{
-	position: relative;
-	left: 57px;
-	top: -533px;
-}
-
-#bigpicsnvids video:nth-child(8)	{
-	position: relative;
-	left: 459px;
-	top: -875px;
-}
-/* END VIDEOS PAGE */
+/* END PICTURES & VIDEOS PAGE */
 
 /* SPORTS PAGES */
 #sportsmain 	{
